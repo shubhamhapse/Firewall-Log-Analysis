@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="commons-cli-2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/commons-cli-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/hadoop-core-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
