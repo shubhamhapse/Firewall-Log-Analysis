@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Firewallanalysis">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Firewallanalysis_jar/Firewallanalysis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

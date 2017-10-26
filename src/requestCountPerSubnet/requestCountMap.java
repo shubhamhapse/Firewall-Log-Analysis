@@ -13,7 +13,7 @@ public class requestCountMap extends Mapper<LongWritable,Text,Text,IntWritable>{
         String s=text.toString();
         String data[]=s.split(",");
 
-        context.write(new Text(data[6]), new IntWritable(1));
+        context.write(new Text(data[5]), new IntWritable(1));
 
     }
 

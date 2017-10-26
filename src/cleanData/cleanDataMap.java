@@ -11,8 +11,9 @@ import java.io.IOException;
 public class cleanDataMap extends Mapper<LongWritable,Text,Text,IntWritable>{
     public void map(LongWritable longWritable,Text text,Context context) throws InterruptedException,IOException
     {
-
-        context.write(text, new IntWritable(1));
+        String temp=text.toString();
+        if(!temp.contains(",,,,,"))
+            context.write(text, new IntWritable(1));
 
     }
 

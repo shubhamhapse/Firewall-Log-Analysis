@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Firewall-Log-Analysis:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Firewall_Log_Analysis_jar</output-path>
+    <root id="archive" name="Firewall-Log-Analysis.jar">
+      <element id="module-output" name="Firewall-Log-Analysis" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/hadoop-core-1.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/commons-cli-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/out/artifacts/Firewallanalysis_jar/Firewallanalysis.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
