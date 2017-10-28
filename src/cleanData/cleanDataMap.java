@@ -12,7 +12,7 @@ public class cleanDataMap extends Mapper<LongWritable,Text,Text,IntWritable>{
     public void map(LongWritable longWritable,Text text,Context context) throws InterruptedException,IOException
     {
         String temp=text.toString();
-        if(!temp.contains(",,,,,"))
+      //  if(!temp.contains(",,,,,"))
             context.write(text, new IntWritable(1));
 
     }

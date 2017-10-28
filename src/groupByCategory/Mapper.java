@@ -16,7 +16,7 @@ public   class Mapper extends org.apache.hadoop.mapreduce.Mapper <LongWritable, 
         {
             User user;
              user=new User(new Text(data[0]),new Text(data[1]),new Text(data[2])
-                    ,new Text(data[3]),new Text(data[4]),new Text(data[5]));
+                    ,new Text(data[3]),new Text(data[4]));
             context.write(user, new IntWritable(1));
         }
     }
