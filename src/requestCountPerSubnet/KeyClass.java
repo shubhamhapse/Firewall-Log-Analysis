@@ -69,6 +69,6 @@ class KeyClass implements WritableComparable<KeyClass> {
     @Override
     public String toString() {
         String ipString[]=ip.toString().split("\\.");
-        return timestamp.toString().split(":")[0]+ "," +  catagory.toString()+"," + ipString[0]+"."+ ipString[1]+"."+ ipString[2];
+        return timestamp.toString().split(":")[0]+"," + ipString[0]+"."+ ipString[1]+"."+ ipString[2]+ "," +  catagory.toString();
     }
 }

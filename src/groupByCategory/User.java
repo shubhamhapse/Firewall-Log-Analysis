@@ -76,6 +76,6 @@ class User implements WritableComparable<User> {
     @Override
     public String toString() {
 
-        return timestamp.toString().split(":")[0]+ "," + userId.toString()+"," + domain.toString()+","+ catagory.toString()+"," + ip.toString();
+        return timestamp.toString().split(":")[0]+ "," + userId.toString()+","+ catagory.toString();
     }
 }
